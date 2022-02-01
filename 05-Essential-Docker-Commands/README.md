@@ -20,3 +20,9 @@
 | docker stats | Display a live stream of container(s) resource usage statistics |
 | docker top container-id or name | Display the running processes of a container |
 | docker version | Show the Docker version information |
+| docker push account/image-name | Push a docker image to docker hub |
+| docker images | List available images |
+| docker tag  josueqxd/nginx-basic:v1 josueqxd/nginx-basic:v1-release | Example on how to create a copy from a image with different version |
+| docker images | List available images |
+| sudo docker OPERATION $(sudo docker ps -a -q) | Made operation on all dockers |
+| sudo docker run --name mynginx1 -p 82:80 -d josueqxd/nginx-basic:v1 | Example on how to start a docker container on port 82 |
